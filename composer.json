@@ -1,5 +1,5 @@
 {
-    "name": "angallego/laravel-googletagmanager",
+    "name": "angallego/laravel-gtm",
     "description": "Google Tag Manager integration for Laravel",
     "keywords": [
         "spatie",
