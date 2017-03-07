@@ -1,3 +1,5 @@
+# I'm not owner of this package. It is a modification.
+
 # Google Tag Manager integration for Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-googletagmanager.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-googletagmanager)
@@ -76,7 +78,7 @@ If you plan on using the [flash-functionality](#flashing-data-for-the-next-reque
         'Spatie\GoogleTagManager\GoogleTagManagerMiddleware',
         ...
     ];
-``` 
+```
 
 ## Configuration
 
@@ -89,7 +91,7 @@ return [
      * The Google Tag Manager id, should be a code that looks something like "gtm-xxxx".
      */
     'id' => '',
-    
+
     /*
      * Enable or disable script rendering. Useful for local development.
      */
@@ -135,7 +137,7 @@ First you'll need to include Google Tag Manager's script. Google's docs recommen
 </html>
 ```
 
-Your base dataLayer will also be rendered here. To add data, use the `set()` function. 
+Your base dataLayer will also be rendered here. To add data, use the `set()` function.
 
 ```php
 // HomeController.php
@@ -148,7 +150,7 @@ public function index()
 }
 ```
 
-This renders: 
+This renders:
 
 ```html
 <html>
